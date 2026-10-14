@@ -1,66 +1,110 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"  />    
-<link rel="stylesheet" href="main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="main.css" />
     <title>Code Academy</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <navbar>
-            <div class="logo"><img src="./Images/logo.png" alt="logo"> <h2>Code Academy</h2> </div>
-            <div class="menu">
-                <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Courses</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
-                <i class="fa-solid fa-bars"></i>
-            </div>
-        </navbar>
-        <section class="hero">
-            <div class="hero-text">
-                <h1>Learn to Code with Code Academy</h1>
-                <p>Join our community of learners and start your coding journey today!</p>
-                <a href="#" class="btn">Get Started</a>
-            </div>
-            <img src="./Images/hero.jpg" alt="hero-img">
-        </section>
+      <navbar>
+        <div class="logo">
+          <img src="./Images/logo.png" alt="logo" />
+          <h2>Code Academy</h2>
+        </div>
+        <div class="menu">
+          <nav>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="./Courses/index.html">Courses</a></li>
+              <li><a href="./About/index.html">About</a></li>
+              <li><a href="./Contact/index.html">Contact</a></li>
+            </ul>
+          </nav>
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </navbar>
+      <section class="hero">
+        <div class="hero-text">
+          <h1>Learn to Code with Code Academy</h1>
+          <p>
+            Join our community of learners and start your coding journey today!
+          </p>
+          <a href="#" class="btn">Get Started</a>
+        </div>
+        <img src="./Images/hero.jpg" alt="hero-img" />
+      </section>
     </header>
     <main>
-        <section class="information">
+      <section class="information">
+        <h2>What Will You Learn?</h2>
 
-        </section>
-        <section class="quote">
-        <blockquote>"Any fool can write code that a computer can understand. Good programmers write code that humans can understand."</blockquote>
+        <div class="info-container">
+          <div class="info-card">
+            <img src="./Images/html.webp" alt="HTML logo" />
+            <h3>HTML</h3>
+            <p>Learn how to structure web pages using HTML.</p>
+          </div>
+
+          <div class="info-card">
+            <img src="./Images/css.webp" alt="CSS logo" />
+            <h3>CSS</h3>
+            <p>Style your websites with colors and beautiful layouts.</p>
+          </div>
+
+          <div class="info-card">
+            <img src="./Images/javascript.webp" alt="JavaScript logo" />
+            <h3>JavaScript</h3>
+            <p>Discover how interactive websites work.</p>
+          </div>
+
+          <div class="info-card">
+            <img
+              src="./Images/responsive.webp"
+              alt="Desktop, tablet, and mobile devices"
+            />
+            <h3>Responsive Design</h3>
+            <p>Make your website work well on every screen size.</p>
+          </div>
+        </div>
+      </section>
+      <section class="quote">
+        <blockquote>
+          "Any fool can write code that a computer can understand. Good
+          programmers write code that humans can understand."
+        </blockquote>
         <p>- Martin Fowler</p>
-        </section>
-        <section class="action">
-            <div class="inner-action">
-                <div class="action-text"><h2>Start Your Coding Journey Today!</h2>
-                <p>Ready to start your coding journey?</p></div>
-                
-                <a href="#" class="btn">Get Started</a>
-            </div>
-        </section>
-        
+      </section>
+      <section class="action">
+        <div class="inner-action">
+          <div class="action-text">
+            <h2>Start Your Coding Journey Today!</h2>
+            <p>Ready to start your coding journey?</p>
+          </div>
+
+          <a href="#" class="btn">Get Started</a>
+        </div>
+      </section>
     </main>
     <footer>
-        <div class="icons">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-        </div>
-        <p>&copy; 2026 Code Academy. All rights reserved.</p>
+      <div class="icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <p>&copy; 2026 Code Academy. All rights reserved.</p>
     </footer>
-</body>
+  </body>
 </html>
